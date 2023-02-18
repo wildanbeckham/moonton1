@@ -1,7 +1,13 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
-/* @import "input.css"; */
+@tailwind utilities; */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@import "input.css";
+@import "sidebar.css";
+@import "button.css";
 
 .flex::before,
 .flex::after {

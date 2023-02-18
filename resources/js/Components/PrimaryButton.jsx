@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-import "../../css/button.css";
 
 PrimaryButton.propTypes = {
     type: PropTypes.oneOf(["button", "submin", "reset"]),
