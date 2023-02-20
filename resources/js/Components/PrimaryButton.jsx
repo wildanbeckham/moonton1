@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
 PrimaryButton.propTypes = {
-    type: PropTypes.oneOf(["button", "submin", "reset"]),
+    type: PropTypes.oneOf(["button", "submit", "reset"]),
     className: PropTypes.string,
     variant: PropTypes.oneOf([
         "primary",
