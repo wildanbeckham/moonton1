@@ -22,7 +22,7 @@ class MovieTableSeeder extends Seeder
                 'category' => 'Animation',
                 'video_url' => 'https://d33kv075lir7n3.cloudfront.net/Details+Screen+Part+Final.mp4',
                 'thumbnail' => 'https://pict.sindonews.net/dyn/850/pena/news/2022/01/13/39/655579/harga-fotofoto-ghozali-bikin-melongo-ada-yang-laku-rp42-miliiar-fwx.jpg',
-                'rating' => 9.3,
+                'rating' => 4.3,
                 'is_featured' => 1,
             ],
             [
@@ -31,7 +31,7 @@ class MovieTableSeeder extends Seeder
                 'category' => 'Animation',
                 'video_url' => 'https://d33kv075lir7n3.cloudfront.net/Details+Screen+Part+Final.mp4',
                 'thumbnail' => 'https://pict.sindonews.net/dyn/850/pena/news/2022/01/13/39/655579/harga-fotofoto-ghozali-bikin-melongo-ada-yang-laku-rp42-miliiar-fwx.jpg',
-                'rating' => 8.3,
+                'rating' => 4.3,
                 'is_featured' => 0,
             ],
             [
@@ -40,7 +40,7 @@ class MovieTableSeeder extends Seeder
                 'category' => 'Animation',
                 'video_url' => 'https://d33kv075lir7n3.cloudfront.net/Details+Screen+Part+Final.mp4',
                 'thumbnail' => 'https://pict.sindonews.net/dyn/850/pena/news/2022/01/13/39/655579/harga-fotofoto-ghozali-bikin-melongo-ada-yang-laku-rp42-miliiar-fwx.jpg',
-                'rating' => 7.3,
+                'rating' => 4.3,
                 'is_featured' => 0,
             ]
         ];
