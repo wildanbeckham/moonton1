@@ -1,7 +1,7 @@
 import Flickity from "react-flickity-component";
 import { Head } from "@inertiajs/react";
 
-import Authenticated from "@/Layouts/Authenticated/index";
+import Authenticated from "@/Layouts/Authenticated/Index";
 import FeaturedMovie from "@/Components/FeaturedMovie";
 import MovieCard from "@/Components/MovieCard";
 

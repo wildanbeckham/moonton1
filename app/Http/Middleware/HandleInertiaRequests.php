@@ -3,10 +3,9 @@
 namespace App\Http\Middleware;
 
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Auth;
 use Inertia\Middleware;
 use Tightenco\Ziggy\Ziggy;
-// use Auth;
+use Illuminate\Support\Facades\Auth;
 use Carbon\Carbon;
 
 class HandleInertiaRequests extends Middleware
@@ -50,11 +49,12 @@ class HandleInertiaRequests extends Middleware
         ];
     }
 
-    public function share(Request $request): array
+    public function share(Request $request)
     {
         return array_merge(parent::share($request), [
             'auth' => [
                 'user' => $request->user(),
+                'activePlan' => $this->activePlan(),
             ],
             'ziggy' => function () use ($request) {
                 return array_merge((new Ziggy)->toArray(), [

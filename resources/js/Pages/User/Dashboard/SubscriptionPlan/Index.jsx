@@ -1,4 +1,4 @@
-import Authenticated from "@/Layouts/Authenticated/index";
+import Authenticated from "@/Layouts/Authenticated/Index";
 import SubcriptionCard from "@/Components/SubcriptionCard";
 import { router } from "@inertiajs/react";
 
